@@ -188,6 +188,7 @@ section{
     transition: all .50s ease;
     animation: blink 1.5s infinite;
     will-change: opacity;
+    cursor: none;
 }
 
 @keyframes blink {
@@ -281,6 +282,7 @@ header.sticky{
 }
 
 .box{
+    height: 500px;
     padding: 80px 40px 66px;
     background: #2d343f;
     border-radius: 28px;
@@ -306,6 +308,7 @@ header.sticky{
     color: var(--other-color);
     line-height: 30px;
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 .box a{
