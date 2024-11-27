@@ -18,6 +18,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?
     family=Geist+Mono:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 
@@ -42,7 +43,7 @@
 
     <!-- HERO -->
      <section class="hero" id="home">
-        <div class="main-content">
+        <div class="main-content" data-aos="fade-in">
             <h4>Hi, There!</h4>
             <h1>I'm <span>Jcohannz Roz Cordoviz</span></h1>
             <p>A hardworking and passionate who is seeking opportunities and challenges to be able to learn and sharpen my 
@@ -62,11 +63,11 @@
 
      <!-- ABOUT -->
       <section class="about" id="about">
-        <div class="about-img">
+        <div class="about-img" data-aos="zoom-in-down">
             <img src="img/about.png">
         </div>
 
-        <div class="about-text">
+        <div class="about-text" data-aos="zoom-in-up">
             <h2>I am a Web <span>Developer</span></h2>
             <div class="exp-area">
                 <p class="exp">
@@ -106,11 +107,11 @@
 
       <!-- SERVICES -->
        <section class="services" id="services">
-        <div class="center-text">
+        <div class="center-text" data-aos="fade-down">
             <h2>My <span>Services</span></h2>
         </div>
 
-        <div class="services-content">
+        <div class="services-content" data-aos="zoom-in-up">
             <div class="box">
                 <img src="img/service-2.svg">
                 <h3>UI/UX Design</h3>
@@ -145,13 +146,13 @@
 
        <!-- PORTFOLIO/PROJECTS -->
         <section class="portfolio" id="portfolio">
-            <div class="center-text">
+            <div class="center-text" data-aos="fade-down">
                 <h2>My <span>Portoflio</span></h2>
             </div>
 
             <!-- PORTFOLIO 1 -->
 
-            <div class="Portfolio-content">
+            <div class="Portfolio-content" data-aos="zoom-in-up">
                 <div class="row">
                     <img src="img/portfolio-1.png">
                     <div class="main-row">
@@ -244,11 +245,11 @@
 
         <!-- CONTACT -->
          <section class="contact" id="contact">
-            <div class="center-text">
+            <div class="center-text" data-aos="fade-down">
                 <h2>Contact <span>Me</span></h2>
             </div>
 
-            <div class="contact-form">
+            <div class="contact-form" data-aos="zoom-in">
                 <form action="">
                     <input type="text" placeholder="Your Name" required>
                     <input type="email" placeholder="Email Address..." required>
@@ -270,5 +271,13 @@
 
     <!-- JS -->
      <script src="js/main.js"></script>
+
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+     AOS.init({
+        offset: 300,
+        duration: 1400,
+     });
+     </script>
 </body>
 </html>
