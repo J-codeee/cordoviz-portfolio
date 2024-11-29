@@ -606,9 +606,15 @@ form .send-btn:hover{
     }
 }
 
+@media (max-width: 580px){
+    .hero{
+        background: none;
+    }
+}
+
 @media (max-width: 480px) {
-    .hero {
-        background-position: center; /* Re-centers the image for very small screens */
+    .hero{
+        background: none;
     }
 
     form .send-btn{
@@ -632,5 +638,8 @@ form .send-btn:hover{
     }
     form .send-btn{
         width: 45%;
+    }
+    .hero{
+        background: none;
     }
 }
